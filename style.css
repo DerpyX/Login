@@ -1,0 +1,44 @@
+
+#countdowntimer {
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+}
+
+#finalRes {
+    color: black;
+}
+#sumRes {
+    color: black
+}
+#die2Res {
+    color: black;
+}
+#die1Res {
+    color: black;
+}
+body {
+    background: linear-gradient(to bottom,slateblue, pink ) ;
+    color: white;
+}
+
+#LoginTitleStyle{
+    color: white
+}
+
+.blinking{
+    animation: opacity 2s ease-in-out infinite;
+    opacity: 1;
+}
+
+@keyframes opacity{
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
